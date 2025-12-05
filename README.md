@@ -157,3 +157,5 @@ Look in the add-ons section within the app, on excellent community lists, or sea
 ### Can I mark content as watched on my Trakt account?
 
 Yes. Go to **Settings** and log into your **Trakt** account (this option is not present on Android TV). Stremio will automatically mark a movie or TV show as watched once you finish it.
+
+The above guide has been inspired by this Reddit [post](https://www.reddit.com/r/StremioAddons/comments/17833ms/stremio_all_you_need_to_know/)
