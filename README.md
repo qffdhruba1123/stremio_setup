@@ -56,7 +56,7 @@ Besides the default catalogs (lists), which cannot be removed, we can add additi
 
 **Note**
 
-If install does not work, you can copy the URL from the "Manual install URL:" field go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
+If install does not work, you can copy the URL from the "Manual install URL:" field go to the Addon Section on Stremio, click on "Add addon", paste the copied URL, click "Add" and then "Install".
 
 Once you are done selecting the platforms and finished with the installation, you will see new catalogs based on those selections.
 
