@@ -34,7 +34,7 @@ Now, we are going to install [Torrentio](https://torrentio.strem.fun/).
 
 **Note**
 
-If install doesnt work, you can "Copy lnk address" from the install button, go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
+If install does not work, you can "Copy link address" from the install button, go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
 Check if **Torentio RD** has appeared in your addon list. If it is there, you are good to go, if not or if you just have Torrentio without the RD, uninstall the addon and try the previous section again.
 
 **Note**
@@ -56,7 +56,7 @@ Besides the default catalogs (lists), which cannot be removed, we can add additi
 
 **Note**
 
-If install doesnt work, you can copy the URL from the "Manual install URL:" field go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
+If install does not work, you can copy the URL from the "Manual install URL:" field go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
 
 Once you are done selecting the platforms and finished with the installation, you will see new catalogs based on those selections.
 
