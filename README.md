@@ -1,159 +1,159 @@
-# Stremio Guide
-Step-by-Step Instructions to set up Stremio
+# 🎬 Stremio Setup Guide
+Step-by-Step Instructions to set up Stremio for the Best Experience
 
-## Setup
+---
 
-### Setting up the application
+## ⚙️ Initial Setup (Mandatory)
 
-I recommend you complete the initial setup on a computer due to a web browser is needed.
+I highly recommend you complete the initial setup on a computer, as a web browser is needed for the addon installation process.
 
-1.  Go to [Stremio](https://web.strem.io/)
-2.  Create an account
-3.  Go to Addon Section (puzzle icon on the left bar)
-4.  Uninstall WatchHub and Public Domain Movies from the addon section.
+### 1. Setting Up the Stremio Application
 
-### Setting up the content
+1.  Go to [Stremio](https://web.strem.io/).
+2.  **Create an account** (or log in).
+3.  Go to the **Add-on Section** (the puzzle piece icon on the left sidebar).
+4.  Uninstall the default add-ons: **WatchHub** and **Public Domain Movies**.
 
-Get a Real-Debrid Subscription from [here](http://real-debrid.com/?id=15891876).
-1. Create an account.
-2. Get a Premium Subscription from the "Premium Offers" section. (You can get a 15 day subscription to test it out, but I suggest getting the 180 day subscription as thats the best value)
-3. Get your API Key from [here](https://real-debrid.com/apitoken) (You will need this in the next step)
+### 2. Setting Up the Content Source (Real-Debrid)
 
-Now, we are going to install [Torrentio](https://torrentio.strem.fun/).
+To ensure high-quality, buffer-free streaming, a debrid service is essential.
 
-* **Providers:** default
-* **Sorting:** default
-* **Priority foreign language:** defaults to English. Change it if that is not your preferred language.
-* **Exclude qualities/resolutions:** check "screener" and "cam" to filter out low-quality videos. You can also check "4k" if your connection is not fast enough to reproduce high-quality videos.
-* **Max results per quality:** 10
-* **Video size limit:** leave empty. If you have a slow connection or limited bandwidth, you can limit the video size. For instance: 2GB, 800MB (2GB for movies and 800MB for TV shows).
-* **Debrid provider:** select "Real-Debrid" here
-* **Debrid API Key:** paste your API key that you got in the previous step here without any spaces.
-* **Debrid options (optional):** check "Don't show download to debrid links" and "Don't show debrid catalog."
-* Click on **install**
+1.  Get a Real-Debrid subscription from [here](http://real-debrid.com/?id=15891876).
+2.  **Create an account.**
+3.  Get a **Premium Subscription** from the "Premium Offers" section. (The 180-day subscription usually offers the best value).
+4.  Get your **API Key** from [here](https://real-debrid.com/apitoken). (You will need this in the next step).
 
-**Note**
+### 3. Installing and Configuring the Torrentio Add-on
 
-If install does not work, you can "Copy link address" from the install button, go to the Addon Section on Stremio, click on "Add addon", paste the copied URL, click "Add" and then "Install".
-Check if **Torentio RD** has appeared in your addon list. If it is there, you are good to go, if not or if you just have Torrentio without the RD, uninstall the addon and try the previous section again.
+Torrentio is the core add-on that links Stremio to Real-Debrid.
 
-**Note**
+Now, we are going to install [Torrentio](https://torrentio.strem.fun/) with your Real-Debrid key.
 
-This is the last step for the basic setup. Now, go and enjoy your favorite movies and TV shows.
+| Configuration Setting | Recommended Value | Notes |
+| :--- | :--- | :--- |
+| **Providers** | `default` | Use default torrent providers. |
+| **Sorting** | `default` | Use the default sorting method. |
+| **Priority foreign language** | `defaults to English` | Change this only if English is not your preferred language. |
+| **Exclude qualities/resolutions** | Check **`screener`** and **`cam`** | This filters out low-quality video streams. You can also check **`4k`** if your internet connection is slow. |
+| **Max results per quality** | `10` | Limits the number of results to keep the list clean. |
+| **Video size limit** | `leave empty` | Leave empty for the best quality. If you have slow internet or limited bandwidth, you can set a limit (e.g., `2GB` for movies, `800MB` for TV shows). |
+| **Debrid provider** | Select **`Real-Debrid`** | This is crucial for high-speed streaming. |
+| **Debrid API Key** | **Paste your API key here** | Paste the key obtained in the previous step, without any spaces. |
+| **Debrid options (optional)** | Check: **`Don't show download to debrid links`** and **`Don't show debrid catalog`** | Hides unnecessary links from the search results. |
+| **Final Step** | Click on **`install`** | |
 
-Although, if you want to improve the experience, please keep reading.
+> **Installation Note:**
+> If the direct install button does not work, you can **"Copy link address"** from the install button, go to the **Add-on Section** on Stremio, click on **"Add addon"**, paste the copied URL, click **"Add"**, and then **"Install"**.
 
-## How to add streaming platforms catalogs
+* **Verification:** Check if **Torrentio RD** has appeared in your add-on list. If it is there, you are all set. If you only see "Torrentio" without the "RD," uninstall the add-on and try the installation section again.
 
-Besides the default catalogs (lists), which cannot be removed, we can add additional ones to the home through addons.
+---
 
-[Streaming Catalogs](https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/) provides us with listings of the most popular streaming platforms.
+### 🎉 Basic Setup Complete!
 
-* Go to the link
-* Change "Filter providers by country" to "Any"
-* Select all the services that you want
-* Click on **install**
+This is the last step for the basic setup. You can now go and enjoy your favorite movies and TV shows across all your linked devices.
 
-**Note**
+*If you want to further improve the experience, please keep reading.*
 
-If install does not work, you can copy the URL from the "Manual install URL:" field go to the Addon Section on Stremio, click on "Add addon", paste the copied URL, click "Add" and then "Install".
+---
 
-Once you are done selecting the platforms and finished with the installation, you will see new catalogs based on those selections.
+## ✨ Optimizing Your Stremio Experience
 
-## Can I watch live TV?
+### How to Add Streaming Platform Catalogs
 
-Yes, you can. My recommendation is the [USA TV addon](https://stremio-addons.net/addons/usa-tv) that offers over 160 US channels in HD, including news and sports.
+You can add additional catalogs (content lists) to your Stremio home screen, besides the default ones.
 
-## FAQ
+[Streaming Catalogs](https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/) provides listings based on popular streaming platforms.
+
+1.  Go to the link.
+2.  Change "Filter providers by country" to **"Any."**
+3.  Select all the streaming services you want to see catalogs for (e.g., Netflix, Prime Video, Hulu).
+4.  Click on **`install`**.
+
+> **Installation Note:**
+> If direct install does not work, copy the URL from the **"Manual install URL:"** field, go to the **Add-on Section** on Stremio, click on **"Add addon"**, paste the copied URL, click **"Add"**, and then **"Install."**
+
+Once installed, you will see new catalogs on your home screen based on your selections.
+
+### Can I Watch Live TV?
+
+Yes, you can. A popular option is the [USA TV addon](https://stremio-addons.net/addons/usa-tv), which offers over 160 US channels in HD, including news and sports.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
 
 ### What is Stremio?
 
-Stremio is a free streaming app that lets you watch movies, TV shows, live channels, and more.
+Stremio is a free streaming application that allows you to watch movies, TV shows, live channels, and more, leveraging a community-driven add-on system.
 
 ### What platforms are supported?
 
-The application currently supports Windows, Mac, Linux (including Steam Deck), Android, Android TV, Samsung TVs (2019+), LG TVs (2020+), IOS, and Web.
+The application currently supports **Windows, Mac, Linux** (including Steam Deck), **Android, Android TV, Samsung TVs** (2019+), **LG TVs** (2020+), **iOS**, and the **Web** client.
 
-### What differentiates it from other streaming apps?
+### What differentiates Stremio from other streaming apps?
 
-Among its many cool features, the highlight is its add-on system, which allows us to expand what we can watch, including copyrighted content. **Torrentio is the most popular.**
+Its highlight is the **add-on system**, which expands what you can watch, including the ability to stream copyrighted content via services like Torrentio.
 
 ### What is Torrentio?
 
-It is an add-on that provides torrent streams from scraped torrent providers. Currently, it supports YTS, EZTV, RARBG, 1337X, The Pirate Bay, and KickassTorrents, among others. The addon also supports debrid services.
+It is a popular add-on that provides stream links by scraping torrent content from providers like YTS, EZTV, 1337X, and The Pirate Bay. Crucially, it supports **debrid services**.
 
 ### What is a debrid service?
 
-A debrid service is an unrestricted multi-hoster that allows you to stream and download videos instantly at the best speeds. In plain English, the debrid services act as a proxy between the BitTorrent tracker and you, so you download the content directly from their servers at high speed. Most of the content is already cached, meaning you can instantly access it.
+A debrid service is an unrestricted multi-hoster that acts as a proxy between you and the BitTorrent network. It allows you to stream and download content instantly at high speeds directly from their servers. Most content is already **cached**, meaning you get instant access with no connection to other torrent peers.
 
-### Do I really need to get a debrid service?
+### Do I really need a debrid service?
 
-My recommendation is yes, get one. Why?
+My recommendation is **yes**. Here’s why:
 
-* High-speed downloads, no buffering. Yes, including 4K content (your experience might vary based on your internet connection).
-* If you live in a country where internet providers monitor torrent activity, you are safe with one.
-* Content may be available even after the original source is no longer available.
-* A small cost gets you a Netflix-like experience for as little as $3 US dollars per month.
+* **High-Speed, No Buffering:** Stream high-resolution content (including 4K) without buffering (experience may vary based on your internet connection).
+* **Safety/Privacy:** If you live in a country that monitors torrent activity, the debrid service keeps your activity safe.
+* **Reliability:** Content is often available even if the original torrent source goes offline.
+* **Cost:** A small monthly cost (around $3 USD for a 6-month Real-Debrid subscription) provides a high-quality, Netflix-like experience.
 
-If you live in a country where torrenting is allowed or have a VPN and are okay with some buffering here and there, you can skip it.
+If you live in a torrent-friendly country, use a VPN, and are okay with occasional buffering, you can technically skip it, but the experience will be noticeably worse.
 
-### Debrid providers
+### Debrid Provider Recommendations
 
-My recommendation is **Real Debrid** due to its excellent cost-value benefit (just ignore the drama from a few months ago; it is still the best option for most). If you get the 6-month subscription, the monthly cost is around $3 US dollars. Another alternatives are **AllDebrid** or **TorBox**, which are at a similar price.
+**Real-Debrid** is the top recommendation due to its excellent cost-to-value ratio and massive cached library. The 6-month subscription makes the monthly cost very low.
 
-**Note:** You cannot use the service from several locations at once. You are allowed to connect from unlimited devices as long as they use the same public IP address. If you do, you risk having your account banned.
+Alternatives include **AllDebrid** or **TorBox**, which are similarly priced.
 
-**TorBox**, **Premiumize**, and **EasyDebrid** don't have this limitation.
+> **Important Usage Note:**
+> You **cannot** use Real-Debrid from multiple geographic locations (different public IP addresses) at once. Doing so risks having your account banned. You can, however, connect from unlimited devices as long as they all share the same public IP address. **TorBox, Premiumize, and EasyDebrid** do not have this IP limitation.
 
-There are other options compatible with Torrentio, but the cost tends to be much higher. Although some may offer additional features:
+### Is Stremio safe to use?
 
-* Premiumize
-* Debrid-Link
-* Offcloud
-* Put.io
-* EasyDebrid
-* TorBox
+Yes, as long as you take normal precautions, such as always downloading the application from official sources.
 
-You can find here a detailed post comparing content cached on the different debrid services.
+### Is Stremio legal?
 
-### Is it safe to use?
-
-Yes, as long as you take normal precautions. For instance, always download the app from official sources.
-
-### Is it legal?
-
-The application itself is legal. However, depending on the addons you install, some might not.
+The application itself is legal. However, depending on the add-ons you install (especially those accessing copyrighted material), the content streaming *might not* be legal in your jurisdiction.
 
 ### Do I need a VPN?
 
-It depends. If you are using a debrid service, you **DO NOT** need a VPN to safely stream content on Stremio, regardless of whether you live in a torrent-friendly country or not. Although, you might still want to get one to improve your security outside Stremio.
+If you are using a **debrid service** (like Real-Debrid) with Stremio, you **DO NOT** need a VPN for safe streaming, as the debrid service handles the torrenting connection. You might still want a VPN for general internet security outside of Stremio.
 
-Countries like Spain, Switzerland, and Poland are safe regarding torrenting. Mexico, The Netherlands, and much of Eastern Europe tolerate or ignore it. However, Australia, Canada, UK, and US are stricter.
-
-Please research about the situation of the country you live in. If it is not part of the friendly ones, you must pay for a debrid service (recommended) or a VPN.
+If you are not using a debrid service, you should research your country's laws. Countries like the US, UK, Canada, and Australia are stricter regarding torrenting, while Spain, Switzerland, and Poland are generally considered safe. **If your country is strict, you MUST use a debrid service (recommended) or a VPN.**
 
 ### Do I have to repeat the setup process on every device?
 
-No. Stremio is cloud-based. Whatever you change in your account will be reflected across devices, including add-ons, library, in-progress content, etc. Just install the app and log in with your credentials.
+No. Stremio is cloud-based. Add-ons, your library, and in-progress content are linked to your account and will sync across all your devices once you log in.
 
-### Stremio is not available for my device. Can I still use it?
+### iPhone/iPad Support
 
-Yes, you just need a web browser. If Stremio is not supported by your device or you don't want to install the app, Stremio offers a web client. Just access `https://web.stremio.com/`, enter your credentials, and you are good to go.
+As of August 2025, the Stremio team has released a native iOS app, installable from the App Store.
 
-### iPhone/iPad support
+Alternatively, you can use the full experience through the web client along with an external player.
 
-As of August 2025, the Stremio team has released a native IOS app. You can install it from the store. More info here.
-
-You can also enjoy the full experience through the web client along with an external player. The details of how to set it up can be found in Stremio's blog.
-
-**Both options require a debrid service, it WON'T work without one.**
+> **Crucial Note for iOS/iPadOS:**
+> **Both options require a debrid service; it WILL NOT work without one.**
 
 ### Where can I find more add-ons?
 
-You can find them in the add-ons section within the app or on this excellent community list or search this subreddit. If you cannot find it in those places, it is very likely that doesn't exist.
+Look in the add-ons section within the app, on excellent community lists, or search relevant subreddits.
 
-### Can I mark the content as watched on my Trakt account?
+### Can I mark content as watched on my Trakt account?
 
-Yes. Go to settings and log into your Trakt account (not present on Android TV). Stremio will automatically mark it as watched once you finish watching a movie or TV Show.
-
-The above guide has been inspired by this Reddit [poost](https://www.reddit.com/r/StremioAddons/comments/17833ms/stremio_all_you_need_to_know/)
+Yes. Go to **Settings** and log into your **Trakt** account (this option is not present on Android TV). Stremio will automatically mark a movie or TV show as watched once you finish it.
