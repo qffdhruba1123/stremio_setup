@@ -9,13 +9,17 @@ I recommend you complete the initial setup on a computer due to a web browser is
 
 1.  Go to [Stremio](https://web.strem.io/)
 2.  Create an account
-3.  Uninstall WatchHub and Public Domain Movies from the addon section.
-
-**Note:** if you own an Android-based device that doesn't include Google Play Store, for instance, a Fire TV. You either need to download the app through an alternative store like Aurora Store, Aptoide, APKPure or sideload the apk (a quick search will teach you how to do it if it is your first time).
+3.  Go to Addon Section (puzzle icon on the left bar)
+4.  Uninstall WatchHub and Public Domain Movies from the addon section.
 
 ### Setting up the content
 
-Now, we are going to install Torrentio from `https://torrentio.strem.fun/`.
+Get a Real-Debrid Subscription from [here](http://real-debrid.com/?id=15891876).
+1. Create an account.
+2. Get a Premium Subscription from the "Premium Offers" section. (You can get a 15 day subscription to test it out, but I suggest getting the 180 day subscription as thats the best value)
+3. Get your API Key from [here](https://real-debrid.com/apitoken) (You will need this in the next step)
+
+Now, we are going to install [Torrentio](https://torrentio.strem.fun/).
 
 * **Providers:** default
 * **Sorting:** default
@@ -23,14 +27,17 @@ Now, we are going to install Torrentio from `https://torrentio.strem.fun/`.
 * **Exclude qualities/resolutions:** check "screener" and "cam" to filter out low-quality videos. You can also check "4k" if your connection is not fast enough to reproduce high-quality videos.
 * **Max results per quality:** 10
 * **Video size limit:** leave empty. If you have a slow connection or limited bandwidth, you can limit the video size. For instance: 2GB, 800MB (2GB for movies and 800MB for TV shows).
-* **Debrid provider (optional):** if you pay for a subscription, select your provider.
-* **Debrid API Key (optional):** click "here" and follow the steps to get your API key based on your provider.
+* **Debrid provider:** select "Real-Debrid" here
+* **Debrid API Key:** paste your API key that you got in the previous step here without any spaces.
 * **Debrid options (optional):** check "Don't show download to debrid links" and "Don't show debrid catalog."
-* Click in **install**
+* Click on **install**
 
-**Note:** if you want to install a backup add-on, please take a look at Comet, MediaFusion, TorrentsDB, or Piratebay+ (torrent-only).
+**Note**
 
-You can find the full stream addons list here.
+If install doesnt work, you can "Copy lnk address" from the install button, go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
+Check if **Torentio RD** has appeared in your addon list. If it is there, you are good to go, if not or if you just have Torrentio without the RD, uninstall the addon and try the previous section again.
+
+**Note**
 
 This is the last step for the basic setup. Now, go and enjoy your favorite movies and TV shows.
 
@@ -40,76 +47,22 @@ Although, if you want to improve the experience, please keep reading.
 
 Besides the default catalogs (lists), which cannot be removed, we can add additional ones to the home through addons.
 
-**Streaming Catalogs** provides us with listings of the most popular streaming platforms.
+[Streaming Catalogs](https://7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club/) provides us with listings of the most popular streaming platforms.
+
+* Go to the link
+* Change "Filter providers by country" to "Any"
+* Select all the services that you want
+* Click on **install**
+
+**Note**
+
+If install doesnt work, you can copy the URL from the "Manual install URL:" field go to the Addon Section on Stremio, click on "Add addon", paste the copied URl, click "Add" and then "Install".
 
 Once you are done selecting the platforms and finished with the installation, you will see new catalogs based on those selections.
 
-## Customized catalogs
-
-This is where things get interesting. It is cool to add new catalogs based on the content from streaming platforms, but if you are like me, you probably don't care much about which platform the content comes from and more about the content itself.
-
-The **Trakt addon** is the tool that will allow us to create an experience tailored specifically to us.
-
-### What is Trakt?
-
-It is a media tracking service that helps users sync their TV shows and movies across numerous platforms and devices.
-
-### Setting up the Trakt Lists addon
-
-Install the **Trakt addon** from the addons section or from here
-
-The standard Trakt lists are static. In other words, if the owner of the list or collaborators don't maintain them, the content won't get updated. This might be okay for some types of lists, but dynamic lists are generally a better option. That's when **MDBList** and **couchmoney** come to the rescue.
-
-* **MDBList**
-    It offers a plethora of filters to match our search criteria. For example, we could create a list where action movies from 2010 to the present with over 60 rank on Rotten Tomatoes order by release date are shown. We can create up to 4 lists with a free account. A Trakt account is required if we want to create our own lists.
-* **Couchmoney**
-    It also creates custom lists based on recently watched, trending, or a specific list. We can filter the content by date, genre, language, and popularity. We can create up to 10 lists. A Trakt account is required.
-
-Now that we have covered the basics, let's go and add a few lists.
-
-Thanks to other users, we are not required to create our own lists. Instead, we will use **public lists** which do not need a Trakt account. I recommend you take a look at the **MDBList lists from Gary and Riz**.
-
-Once you have found the ones you are interested in, we will add them through the Trakt addon. To easily find the list, use the search function, including the username and the list name. For instance: "garycrawfordgc horror".
-
-The steps to add lists created by Couchmoney are the same. Keep in mind that you are going to need a Trakt account and some content marked as watched for the tool to be able to start making suggestions.
-
-Once you are done adding the lists, it should look something like this:
-
-**Note:** you can use a combination of static public and own Trakt lists, public and own dynamic lists created by MDBList, and own dynamic lists created by couchmoney.
-
-Click install, and tadaaaaaa!
-
-**Note:** you **DO NOT** need a Trakt TV account if you add public lists. It is only required if you want to access your own private lists (Watch List or Recommendations, for example) or if you want to keep track of what you have watched (scrobbling).
-
-## Include ratings over the covers
-
-**Rating Poster Database** has recently introduced a free tier that allows you to display IMDB, Metacritic, and Rotten Tomatoes ratings over the covers. The most popular catalogs addons include support for it, including Streaming Catalogs, Cyberflix Catalog, Trakt.tv, among others.
-
-Go to RPBD website and create a Patreon account to get a free key. Once you have received it, introduce it in the addon/s you have chosen, and it would look like this:
-
-That concludes the advanced setup. Congratulations, you are ready to enjoy the ultimate streaming experience!!!
-
 ## Can I watch live TV?
 
-Yes, you can. My recommendation is the **USA TV addon** that offers over 160 US channels in HD, including news and sports.
-
-## How to watch anime on the platform
-
-Torrentio, along with other popular add-ons, provides most of the content. However, it is recommended to install **Anime Kitsu** to make sure the metadata is resolved correctly.
-
-## How to watch Asian dramas
-
-The most popular add-ons provide some Asian content. If you want to expand the chances of finding what you are looking for, please install the **StreamAsia add-on**. More info can be found here in the official addon post.
-
-## How can I change the order of my addons?
-
-Stremio currently doesn't allow users to change the order in which their installed addons appear on the home screen. As a workaround, it is common for users to remove and re-install add-ons in the order they want them to appear. This is a tedious and cumbersome process as you can imagine.
-
-**Addon Manager** uses the internal Stremio API to manipulate addon order without having to add/remove them.
-
-**Note:** the default lists cannot be removed, but you can push them down or you can use **Hidden Cinemeta**.
-
-**Stremio Account Bootstrapper** already does this for you.
+Yes, you can. My recommendation is the [USA TV addon](https://stremio-addons.net/addons/usa-tv) that offers over 160 US channels in HD, including news and sports.
 
 ## FAQ
 
@@ -202,3 +155,5 @@ You can find them in the add-ons section within the app or on this excellent com
 ### Can I mark the content as watched on my Trakt account?
 
 Yes. Go to settings and log into your Trakt account (not present on Android TV). Stremio will automatically mark it as watched once you finish watching a movie or TV Show.
+
+The above guide has been inspired by this Reddit [poost](https://www.reddit.com/r/StremioAddons/comments/17833ms/stremio_all_you_need_to_know/)
