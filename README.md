@@ -1,6 +1,5 @@
 # 🎬 Stremio Setup Guide
-Step-by-Step Instructions to set up Stremio for the Best Experience
-This will allow you to stream whatever content you want to enjoy
+Step-by-Step Instructions to set up Stremio for the Best Experience. This will allow you to stream whatever content you want to enjoy
 ---
 
 ## ⚙️ Initial Setup (Mandatory)
