@@ -51,7 +51,7 @@ Now, we are going to install [Torrentio](https://torrentio.strem.fun/) with your
 ### 🎉 Basic Setup Complete!
 
 This is the last step for the basic setup. You can now go and enjoy your favorite movies and TV shows across all your linked devices.
-Simply download the [Stremio App](https://www.stremio.com/downloads) (they have an app on almost all platforms) and log in with your account, your setup will be included with your account.
+Simply download the [Stremio App](https://www.stremio.com/downloads) (they have an app on almost all platforms) and log in with your account, your setup will be included with your account. Please also read usage note [here](https://github.com/qffdhruba1123/stremio_setup/blob/main/README.md#debrid-provider-recommendations)
 
 *If you want to further improve the experience, please keep reading.*
 
