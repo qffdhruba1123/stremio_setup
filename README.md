@@ -55,7 +55,7 @@ Simply download the [Stremio App](https://www.stremio.com/downloads) (they have 
 
 ### 📝 Usage Notes
 * Real-Debrid does not allow access from two different public IP Addresses simultaneously. Doing so will have your account banned. (Do not stream from two different locations, or from a device connected to your home WiFi Network and another connected to a cellular network. But it is perfectly fine to stream from two different devices on the same WiFi Network).
-* If High Quality 4k content lags or stutters but 1080p content streams fine, that is a device limitation, you can get a more powerful streaming box. At the time of writing this guide, I personally use the Google TV Streamer 4k.
+* If High Quality 4k content lags or stutters but 1080p content streams fine, that is a device limitation, you can get a more powerful streaming box. At the time of writing this guide, I personally use the Google TV Streamer 4k. It could also be due to your internet connection not being fast enough.
 * You will see Torrentio returning links with either "RD+" or "RD". "RD+" links will stream instantly (maybe give it like 5-10 seconds). "RD" links will require the file to be first downloaded to your Real-Debrid account, and then can be streamed.
 * If you get an Access Denied Error, check if you have an active subscription on Real-Debrid. Renew your subscription, reconfigure Torrentio with your new API Key from Real-Debrid.
 * There is an amazing addon ecosystem for Stremio, explore and try things out, you will never be able to stop tweaking your setup!
