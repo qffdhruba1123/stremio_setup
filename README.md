@@ -87,6 +87,15 @@ Once installed, you will see new catalogs on your home screen based on your sele
 
 Yes, you can. A popular option is the [USA TV addon](https://stremio-addons.net/addons/usa-tv), which offers over 160 US channels in HD, including news and sports.
 
+## 💡 Other Tips
+* Results of addons appear in the order that they are in the Addon Section. If you want to change the order of the addons, you can do so with the help of this [tool](https://stremio-addon-manager.vercel.app/).
+* You can set up [Comet](https://comet.elfhosted.com/configure) as an alternative to Torrentio to provide you with stream links. Make sure to set it up with your Real-Debrid API Key. This will ensure you still get stream links even if Torrentio is down.
+* As with any cloud-based application, there can be periods of downtime. Addon Status can be checked [here](https://stremio-addons.net/). Real-Debrid status information is often posted on [X](https://x.com/RealDebrid). A lot of the addons and stremio may be down if there is a Cloudflare outage.
+* My personal recommendations for additonal addons to look into:
+  * [Takt Tv](https://trakt.dexter21767.com/configure/)
+  * [AIOMetadata](https://aiometadata.elfhosted.com/configure/)
+  * [Statusio](https://statusio.elfhosted.com/configure)
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
