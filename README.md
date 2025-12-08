@@ -92,7 +92,7 @@ Yes, you can. A popular option is the [USA TV addon](https://stremio-addons.net/
 * You can set up [Comet](https://comet.elfhosted.com/configure) as an alternative to Torrentio to provide you with stream links. Make sure to set it up with your Real-Debrid API Key. This will ensure you still get stream links even if Torrentio is down.
 * As with any cloud-based application, there can be periods of downtime. Addon Status can be checked [here](https://stremio-addons.net/). Real-Debrid status information is often posted on [X](https://x.com/RealDebrid). A lot of the addons and stremio may be down if there is a Cloudflare outage.
 * My personal recommendations for additonal addons to look into:
-  * [Takt Tv](https://trakt.dexter21767.com/configure/)
+  * [Takt Tv](https://trakt.dexter21767.com/configure/) (Pointers on setting this up can be found in the post linked at the end of this guide)
   * [AIOMetadata](https://aiometadata.elfhosted.com/configure/)
   * [Statusio](https://statusio.elfhosted.com/configure)
 * Great subreddits to follow for further ideas:
