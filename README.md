@@ -95,7 +95,9 @@ Yes, you can. A popular option is the [USA TV addon](https://stremio-addons.net/
   * [Takt Tv](https://trakt.dexter21767.com/configure/)
   * [AIOMetadata](https://aiometadata.elfhosted.com/configure/)
   * [Statusio](https://statusio.elfhosted.com/configure)
-
+* Great subreddits to follow for further ideas:
+  * [StremioAddons](https://www.reddit.com/r/StremioAddons/)
+  * [Stremio](https://www.reddit.com/r/Stremio/) 
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
