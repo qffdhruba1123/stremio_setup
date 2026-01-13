@@ -52,6 +52,7 @@ Now, we are going to install [Torrentio](https://torrentio.strem.fun/) with your
 
 This is the last step for the basic setup. You can now go and enjoy your favorite movies and TV shows across all your linked devices.
 Simply download the [Stremio App](https://www.stremio.com/downloads) (they have an app on almost all platforms) and log in with your account, your setup will be included with your account.
+P.S. Some app stores have removed the app, but you can always sideload the app by downloading the APK file from the above link.
 
 ### 📝 Usage Notes
 * **Real-Debrid does not allow access from two different public IP Addresses simultaneously. Doing so will have your account banned.** (Do not stream from two different locations, or from a device connected to your home WiFi Network and another connected to a cellular network. But it is perfectly fine to stream from two different devices on the same WiFi Network).
