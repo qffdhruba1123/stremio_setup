@@ -62,7 +62,7 @@ Simply download the [Stremio App](https://www.stremio.com/downloads) (they have 
 * If you get an Access Denied Error, check if you have an active subscription on Real-Debrid. Renew your subscription, reconfigure Torrentio with your new API Key from Real-Debrid.
 * Real-Debrid subscriptions are stackable.
 * There is an amazing addon ecosystem for Stremio, explore and try things out, you will never be able to stop tweaking your setup! Some recommendations can be found [here](https://github.com/qffdhruba1123/stremio_setup/blob/main/README.md#-other-tips).
-* My own addon setup can be found [here](https://github.com/qffdhruba1123/stremio_setup/blob/main/COMPLETE_CURRENT_SETUP.md)
+* My own addon setup can be found [here](https://github.com/qffdhruba1123/stremio_setup/blob/main/COMPLETE_CURRENT_SETUP.md).
 
 *If you want to further improve the experience, please keep reading.*
 
