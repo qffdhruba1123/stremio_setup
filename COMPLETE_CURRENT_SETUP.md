@@ -1,6 +1,7 @@
 # 🚀 Current Addon Setup
 Will be updated as I make any changes.  
 Please make sure to have completed the initial setup before trying to add any of the addons below.  
+The addons are listed in the order installed.
 
 ## 🔑 Required API Keys  
 - **Your Real-Debrid Key** > [Get the key](https://real-debrid.com/apitoken)
