@@ -12,38 +12,38 @@ The addons are listed in the order installed.
 - **RPDB API Key** > [Get the key](https://ratingposterdb.com/) (Click "See Plans" > Join their Patreon > get a free API key)
 - **MDBList API Key** > [Get the key](https://mdblist.com/) (Create an account and generate a key, free tier has generous limits.)
 
-## 🤖 AI Search
+## 🤖 [AI Search](https://stremio.itcon.au/aisearch/configure)
 - **Description**: AI-powered movie and series recommendations.
 - **Configuration**:
 
-## 📺 Trakt Tv
+## 📺 [Trakt Tv](https://2ecbbd610840-trakt.baby-beamup.club/configure/)
 - **Description**: Addon for getting Trakt's public and user lists, recommendations, and watch list.
 - **Configuration**: 
 
-## 🧠 AIOMetadata | ElfHosted
+## 🧠 [AIOMetadata | ElfHosted](https://aiometadata.elfhosted.com/configure/)
 - **Description**: A metadata addon for power users that utilizes sources like TMDB, TVDB, TVMaze, MyAnimeList, and IMDB.
 - **Configuration**: 
 
-## 📊 Ratings
+## 📊 [Ratings](https://72059fbbd1e5-stremio-addon-ratings.baby-beamup.club/configure/#/)
 - **Description**: Displays scores and age ratings (such as IMDB episode and MyAnimeList) at the top of your streams.
 - **Configuration**:
 
-## 🛠️ Statusio
+## 🛠️ [Statusio](https://statusio.elfhosted.com/configure)
 - **Description**: Shows premium status and days remaining across multiple debrid providers.
 - **Configuration**:
 
-## 🔗 AIOStreams Stable
+## 🔗 [AIOStreams Stable](https://aiostreamsfortheweebsstable.midnightignite.me/stremio/configure)
 - **Description**: Consolidates multiple Stremio addons and debrid services into a single, easily configurable interface.
 - **Configuration**:
 
-## 🌊 MediaFusion | ElfHosted RD
+## 🌊 [MediaFusion | ElfHosted RD](https://mediafusion.elfhosted.com/configure)
 - **Description**: Universal Stremio addon for Movies, Series, Live TV, and Sports Events.
 - **Configuration**:
 
-## ⚡ Torrentio RD
+## ⚡ [Torrentio RD](https://torrentio.strem.fun/configure)
 - **Description**: Provides torrent streams from various scraped providers, enhanced with Real-Debrid support.
 - **Configuration**:
 
-## ☄️ Comet | RD
+## ☄️ [Comet | RD](https://comet.elfhosted.com/configure)
 - **Description**: A fast torrent and debrid search addon.
 - **Configuration**:
