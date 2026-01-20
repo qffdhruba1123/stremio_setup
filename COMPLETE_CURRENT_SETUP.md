@@ -30,24 +30,24 @@ The addons are listed in the order installed.
 
 ## 🛠️ [Statusio](https://statusio.elfhosted.com/configure)
 - **Description**: Shows premium status and days remaining across multiple debrid providers.
-- **Configuration**:
+- **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
 
 ## 🔗 [AIOStreams Stable](https://aiostreamsfortheweebsstable.midnightignite.me/stremio/configure)
 - **Description**: Consolidates multiple Stremio addons and debrid services into a single, easily configurable interface.
-- **Configuration**:
+- **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
 
 ## 🌊 [MediaFusion | ElfHosted RD](https://mediafusion.elfhosted.com/configure)
 - **Description**: Universal Stremio addon for Movies, Series, Live TV, and Sports Events.
-- **Configuration**:
+- **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
 
 ## ⚡ [Torrentio RD](https://torrentio.strem.fun/configure)
 - **Description**: Provides torrent streams from various scraped providers, enhanced with Real-Debrid support.
-- **Configuration**:
+- **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
 
 ## ☄️ [Comet | RD](https://comet.elfhosted.com/configure)
 - **Description**: A fast torrent and debrid search addon.
-- **Configuration**:
+- **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
 
 ## ☁️ [Debrid Search](https://68d69db7dc40-debrid-search.baby-beamup.club/configure)
 - **Description**: Stremio Addon to search downloads and torrents in your Debrid cloud
-- **Configuration**:
+- **Configuration**: Needs to be configured with your Real-Debrid API Key.
