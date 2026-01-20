@@ -47,3 +47,7 @@ The addons are listed in the order installed.
 ## ☄️ [Comet | RD](https://comet.elfhosted.com/configure)
 - **Description**: A fast torrent and debrid search addon.
 - **Configuration**:
+
+## ☁️ [Debrid Search](https://68d69db7dc40-debrid-search.baby-beamup.club/configure)
+- **Description**: Stremio Addon to search downloads and torrents in your Debrid cloud
+- **Configuration**:
