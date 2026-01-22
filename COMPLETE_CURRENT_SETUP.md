@@ -22,7 +22,7 @@ The addons are listed in the order installed.
 
 ## 🧠 [AIOMetadata | ElfHosted](https://aiometadata.elfhosted.com/configure/)
 - **Description**: A metadata addon for power users that utilizes sources like TMDB, TVDB, TVMaze, MyAnimeList, and IMDB. As configuration can be a bit involved, feel free to use the config file below, you can add you own api keys after import.
-- **Configuration**: [Config File](https://github.com/qffdhruba1123/stremio_setup/blob/main/aiometadata-config.json)
+- **Configuration**: [Config File](https://github.com/qffdhruba1123/stremio_setup/blob/main/aiometadata-config.json). Make sure to enter the required API Keys.
 
 ## 📊 [Ratings](https://72059fbbd1e5-stremio-addon-ratings.baby-beamup.club/configure/#/)
 - **Description**: Displays scores and age ratings (such as IMDB episode and MyAnimeList) at the top of your streams.
