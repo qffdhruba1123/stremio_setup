@@ -1,6 +1,6 @@
 # 🚀 Current Addon Setup
 Will be updated as I make any changes.  
-Please make sure to have completed the initial setup before trying to add any of the addons below.  
+Please make sure to have completed the [initial setup](https://github.com/qffdhruba1123/stremio_setup/blob/main/README.md) before trying to add any of the addons below.  
 The addons are listed in the order installed.
 
 ## 🔑 Required API Keys  
