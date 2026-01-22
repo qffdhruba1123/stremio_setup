@@ -19,7 +19,8 @@ The addons are listed in the order installed.
 
 ## 📺 [Trakt Tv](https://2ecbbd610840-trakt.baby-beamup.club/configure/)
 - **Description**: Addon for getting Trakt's public and user lists, recommendations, and watch list.
-- **Configuration**: According to your preference. 
+- **Configuration**: According to your preference.
+- **Comment**: I like having the trending lists and search enabled.
 
 ## 🧠 [AIOMetadata | ElfHosted](https://aiometadata.elfhosted.com/configure/)
 - **Description**: A metadata addon for power users that utilizes sources like TMDB, TVDB, TVMaze, MyAnimeList, and IMDB. As configuration can be a bit involved, feel free to use the config file below, you can add you own api keys after import.
