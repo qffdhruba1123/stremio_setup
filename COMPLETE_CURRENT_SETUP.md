@@ -21,8 +21,8 @@ The addons are listed in the order installed.
 - **Configuration**: 
 
 ## 🧠 [AIOMetadata | ElfHosted](https://aiometadata.elfhosted.com/configure/)
-- **Description**: A metadata addon for power users that utilizes sources like TMDB, TVDB, TVMaze, MyAnimeList, and IMDB.
-- **Configuration**: 
+- **Description**: A metadata addon for power users that utilizes sources like TMDB, TVDB, TVMaze, MyAnimeList, and IMDB. As configuration can be a bit involved, feel free to use the config file below, you can add you own api keys after import.
+- **Configuration**: [Config File](https://github.com/qffdhruba1123/stremio_setup/blob/main/aiometadata-config.json)
 
 ## 📊 [Ratings](https://72059fbbd1e5-stremio-addon-ratings.baby-beamup.club/configure/#/)
 - **Description**: Displays scores and age ratings (such as IMDB episode and MyAnimeList) at the top of your streams.
@@ -33,8 +33,8 @@ The addons are listed in the order installed.
 - **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
 
 ## 🔗 [AIOStreams Stable](https://aiostreamsfortheweebsstable.midnightignite.me/stremio/configure)
-- **Description**: Consolidates multiple Stremio addons and debrid services into a single, easily configurable interface.
-- **Configuration**: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.
+- **Description**: Consolidates multiple Stremio addons and debrid services into a single, easily configurable interface. As configuration can be a bit involved, feel free to use the config file below, you can add you own api keys after import.
+- **Configuration**: [Template File](https://github.com/qffdhruba1123/stremio_setup/blob/main/aiostream-template.json). Make sure to enter the required API Keys, including your Real-Debrid API Key.
 
 ## 🌊 [MediaFusion | ElfHosted RD](https://mediafusion.elfhosted.com/configure)
 - **Description**: Universal Stremio addon for Movies, Series, Live TV, and Sports Events.
