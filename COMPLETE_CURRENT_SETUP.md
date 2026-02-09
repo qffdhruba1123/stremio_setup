@@ -17,7 +17,7 @@ The addons are listed in the order installed.
 - **Configuration**: According to your preference.
 - **Comment**: Untick "Show AI Recommendations on Homepage" under Advanced Options to make sure your homepage is not cluttered.
 
-## 📺 [Trakt Tv](https://2ecbbd610840-trakt.baby-beamup.club/configure/)
+## 📺 [Trakt Tv](https://trakt.dexter21767.com/configure/)
 - **Description**: Addon for getting Trakt's public and user lists, recommendations, and watch list.
 - **Configuration**: According to your preference.
 - **Comment**: I like having the trending lists and search enabled to enhance content discovery.
