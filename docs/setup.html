@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Current Addon Setup</title>
+    <style>
+        :root {
+        --bg: #0d1117;
+        --surface: #161b22;
+        --border: #30363d;
+        --text: #e6edf3;
+        --text-muted: #8b949e;
+        --accent: #58a6ff;
+        --accent-hover: #79c0ff;
+        --code-bg: #1c2128;
+        --success: #3fb950;
+        --warning: #d29922;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Noto Sans,
+                     Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+        color: var(--text);
+        background: var(--bg);
+    }
+
+    /* ---------- Navigation ---------- */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        padding: 0.6rem 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        backdrop-filter: blur(10px);
+    }
+    nav .brand {
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: var(--accent);
+        text-decoration: none;
+    }
+    nav a {
+        color: var(--text-muted);
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: color 0.2s;
+    }
+    nav a:hover, nav a.active { color: var(--accent); }
+    nav .spacer { flex: 1; }
+    nav .github-link { display: flex; align-items: center; gap: 0.4rem; }
+    nav .github-link svg { fill: var(--text-muted); transition: fill 0.2s; }
+    nav .github-link:hover svg { fill: var(--accent); }
+
+    /* ---------- Main content ---------- */
+    .container {
+        max-width: 860px;
+        margin: 2rem auto;
+        padding: 2rem 2.5rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+    }
+    @media (max-width: 900px) {
+        .container { margin: 1rem; padding: 1.2rem; border-radius: 8px; }
+    }
+
+    /* ---------- Typography ---------- */
+    h1 { font-size: 2rem; margin: 0.4rem 0 0.8rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    h2 { font-size: 1.5rem; margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+    h3 { font-size: 1.2rem; margin-top: 1.5rem; color: var(--accent); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); text-decoration: underline; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    strong { color: #ffffff; }
+
+    /* ---------- Lists ---------- */
+    ul, ol { padding-left: 1.6rem; }
+    li { margin: 0.3rem 0; }
+    li > ul, li > ol { margin-top: 0.2rem; }
+
+    /* ---------- Code ---------- */
+    code {
+        background: var(--code-bg);
+        padding: 0.15em 0.4em;
+        border-radius: 4px;
+        font-size: 0.9em;
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+    pre {
+        background: var(--code-bg);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 1rem;
+        overflow-x: auto;
+    }
+    pre code { background: transparent; padding: 0; }
+
+    /* ---------- Tables ---------- */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+        font-size: 0.92rem;
+    }
+    th, td {
+        border: 1px solid var(--border);
+        padding: 0.55rem 0.75rem;
+        text-align: left;
+    }
+    th { background: var(--code-bg); font-weight: 600; }
+    tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+
+    /* ---------- Blockquotes ---------- */
+    blockquote {
+        margin: 1rem 0;
+        padding: 0.6rem 1rem;
+        border-left: 4px solid var(--accent);
+        background: rgba(88,166,255,0.06);
+        border-radius: 0 6px 6px 0;
+    }
+    blockquote p { margin: 0.3rem 0; }
+
+    /* ---------- Footer ---------- */
+    footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: var(--text-muted);
+        font-size: 0.85rem;
+    }
+    footer a { color: var(--accent); }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="brand" href="index.html">🎬 Stremio Setup</a>
+        <a href="index.html">Setup Guide</a>
+    <a href="setup.html" class="active">My Addon Setup</a>
+        <span class="spacer"></span>
+        <a class="github-link" href="https://github.com/qffdhruba1123/stremio_setup" target="_blank" rel="noopener">
+            <svg height="20" width="20" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg> GitHub
+        </a>
+    </nav>
+
+    <div class="container">
+        <h1 id="current-addon-setup">🚀 Current Addon Setup</h1>
+    <p>Will be updated as I make any changes.<br />
+    Please make sure to have completed the <a href="index.html">initial setup</a> before trying to add any of the addons below.<br />
+    The addons are listed in the order installed.</p>
+    <h2 id="required-api-keys">🔑 Required API Keys</h2>
+    <ul>
+    <li><strong>Your Real-Debrid Key</strong> &gt; <a href="https://real-debrid.com/apitoken">Get the key</a></li>
+    <li><strong>Google Gemini API Key</strong> &gt; <a href="https://aistudio.google.com/app/apikey">Get the key</a> (You need to generate a key here, there is a free tier with enough rate limits for individual use.)</li>
+    <li><strong>TMDB API Key</strong> &gt; <a href="https://www.themoviedb.org/settings/api">Get the key</a> (Create an account and generate a key, free tier has generous limits.)</li>
+    <li><strong>TVDB API Key</strong> &gt; <a href="https://thetvdb.com/api-information">Get the key</a> (Create an account and generate a key, free tier has generous limits.)</li>
+    <li><strong>Fanart.tv API Key</strong> &gt; <a href="https://fanart.tv/get-an-api-key/">Get the key</a> (Create an account and generate a personal key, free tier has generous limits.)</li>
+    <li><strong>RPDB API Key</strong> &gt; <a href="https://ratingposterdb.com/">Get the key</a> (Click &ldquo;See Plans&rdquo; &gt; Join their Patreon &gt; get a free API key)</li>
+    <li><strong>MDBList API Key</strong> &gt; <a href="https://mdblist.com/">Get the key</a> (Create an account and generate a key, free tier has generous limits.)</li>
+    </ul>
+    <h2 id="ai-search">🤖 <a href="https://stremio.itcon.au/aisearch/configure">AI Search</a></h2>
+    <ul>
+    <li><strong>Description</strong>: AI-powered movie and series recommendations.</li>
+    <li><strong>Configuration</strong>: According to your preference.</li>
+    <li><strong>Comment</strong>: Untick &ldquo;Show AI Recommendations on Homepage&rdquo; under Advanced Options to make sure your homepage is not cluttered.</li>
+    </ul>
+    <h2 id="trakt-tv">📺 <a href="https://trakt.dexter21767.com/configure/">Trakt Tv</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Addon for getting Trakt&rsquo;s public and user lists, recommendations, and watch list.</li>
+    <li><strong>Configuration</strong>: According to your preference.</li>
+    <li><strong>Comment</strong>: I like having the trending lists and search enabled to enhance content discovery.</li>
+    </ul>
+    <h2 id="aiometadata-elfhosted">🧠 <a href="https://aiometadata.elfhosted.com/configure/">AIOMetadata | ElfHosted</a></h2>
+    <ul>
+    <li><strong>Description</strong>: A metadata addon for power users that utilizes sources like TMDB, TVDB, TVMaze, MyAnimeList, and IMDB. As configuration can be a bit involved, feel free to use the config file below, you can add you own api keys after import.</li>
+    <li><strong>Configuration</strong>: <a href="aiometadata-config.json">Config File</a>. Make sure to enter the required API Keys. To import config file go to &ldquo;Configuration&rdquo; tab and then click &ldquo;Import Configuration&rdquo;, and then enter your API Keys on the &ldquo;Integration&rdquo; tab.</li>
+    </ul>
+    <h2 id="ratings">📊 <a href="https://72059fbbd1e5-stremio-addon-ratings.baby-beamup.club/configure/#/">Ratings</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Displays scores and age ratings (such as IMDB episode and MyAnimeList) at the top of your streams.</li>
+    <li><strong>Configuration</strong>: According to your preference.</li>
+    </ul>
+    <h2 id="statusio">🛠️ <a href="https://statusio.elfhosted.com/configure">Statusio</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Shows premium status and days remaining across multiple debrid providers.</li>
+    <li><strong>Configuration</strong>: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.</li>
+    </ul>
+    <h2 id="aiostreams-stable">🔗 <a href="https://aiostreamsfortheweebsstable.midnightignite.me/stremio/configure">AIOStreams Stable</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Consolidates multiple Stremio addons and debrid services into a single, easily configurable interface. As configuration can be a bit involved, feel free to use the config file below, you can add you own api keys after import.</li>
+    <li><strong>Configuration</strong>: <a href="aiostream-template.json">Template File</a>. Make sure to enter the required API Keys, including your Real-Debrid API Key. To load template, go to &ldquo;Save and Install&rdquo; option on the left, &ldquo;Import&rdquo; and then &ldquo;Import Template&rdquo;.</li>
+    </ul>
+    <h2 id="mediafusion-elfhosted-rd">🌊 <a href="https://mediafusion.elfhosted.com/configure">MediaFusion | ElfHosted RD</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Universal Stremio addon for Movies, Series, Live TV, and Sports Events.</li>
+    <li><strong>Configuration</strong>: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.</li>
+    </ul>
+    <h2 id="torrentio-rd">⚡ <a href="https://torrentio.strem.fun/configure">Torrentio RD</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Provides torrent streams from various scraped providers, enhanced with Real-Debrid support.</li>
+    <li><strong>Configuration</strong>: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.</li>
+    <li><strong>Comment</strong>: Torrentio has been sporadic in its availability, which is why I highly recommend adding Comet and MediaFusion. Make sure to set them up with your Real-Debrid Key.</li>
+    </ul>
+    <h2 id="comet-rd">☄️ <a href="https://comet.elfhosted.com/configure">Comet | RD</a></h2>
+    <ul>
+    <li><strong>Description</strong>: A fast torrent and debrid search addon.</li>
+    <li><strong>Configuration</strong>: Needs to be configured with your Real-Debrid API Key. Other configuration options should be selected according to your preference.</li>
+    </ul>
+    <h2 id="intelligent-debrid-search">☁️ <a href="https://intell-debridsearch.nepiraw.com/configure">Intelligent Debrid Search</a></h2>
+    <ul>
+    <li><strong>Description</strong>: Stremio Addon to search downloads and torrents in your Debrid cloud</li>
+    <li><strong>Configuration</strong>: Needs to be configured with your Real-Debrid API Key.</li>
+    <li><strong>Comment</strong>: This is useful in cases when a scraper addon occasionally requests the file on Real-Debrid but throws an error when starting the stream. This addon will pickup that file, and you can use the link generated by this addon to stream instead of the link by the scraper.</li>
+    </ul>
+    <h2 id="final-order-of-addons">↕️ Final order of addons</h2>
+    <p>This list includes all addons in the final setup, including the default pre-installed addons.
+    Use this tool to change order of addons: <a href="https://stremio-addon-manager.vercel.app/">Stremio Addon Manager</a>
+    - AI Search
+    - Trakt Tv
+    - AIOMetadata
+    - Cinemeta
+    - Local Files
+    - OpenSubtitles
+    - OpenSubtitles v3
+    - Ratings
+    - Statusio
+    - AIOStreams
+    - MediaFusion
+    - Torrentio
+    - Comet
+    - Debrid Search</p>
+    </div>
+
+    <footer>
+        Built from <a href="https://github.com/qffdhruba1123/stremio_setup">qffdhruba1123/stremio_setup</a>
+    </footer>
+</body>
+</html>
