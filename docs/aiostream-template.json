@@ -1,0 +1,487 @@
+{
+  "metadata": {
+    "id": "aiostream-template-2026-01-22.11-01-35-6xaubyx",
+    "name": "AIOStream Template",
+    "description": "Starter template, requires credentials to be entered",
+    "source": "external",
+    "author": "qffdhruba",
+    "version": "1.0.0",
+    "category": "Debrid",
+    "serviceRequired": false,
+    "setToSaveInstallMenu": true
+  },
+  "config": {
+    "services": [
+      {
+        "id": "realdebrid",
+        "enabled": true,
+        "credentials": {}
+      },
+      {
+        "id": "alldebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "premiumize",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "debridlink",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "torbox",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "stremio_nntp",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "nzbdav",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "altmount",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "offcloud",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "putio",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "easynews",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "easydebrid",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "debrider",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "pikpak",
+        "enabled": false,
+        "credentials": {}
+      },
+      {
+        "id": "seedr",
+        "enabled": false,
+        "credentials": {}
+      }
+    ],
+    "presets": [
+      {
+        "type": "stremthruTorz",
+        "instanceId": "29d",
+        "enabled": true,
+        "options": {
+          "name": "StremThru Torz",
+          "timeout": 7000,
+          "resources": [
+            "stream"
+          ],
+          "mediaTypes": [],
+          "includeP2P": false,
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "knaben",
+        "instanceId": "534",
+        "enabled": true,
+        "options": {
+          "name": "Knaben",
+          "timeout": 7000,
+          "mediaTypes": [],
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "torrent-galaxy",
+        "instanceId": "895",
+        "enabled": true,
+        "options": {
+          "name": "TorrentGalaxy",
+          "timeout": 15000,
+          "mediaTypes": [],
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "jackettio",
+        "instanceId": "5be",
+        "enabled": true,
+        "options": {
+          "name": "Jackettio",
+          "timeout": 15000,
+          "resources": [
+            "stream"
+          ],
+          "mediaTypes": []
+        }
+      },
+      {
+        "type": "torrents-db",
+        "instanceId": "e67",
+        "enabled": true,
+        "options": {
+          "name": "TorrentsDB",
+          "timeout": 15000,
+          "resources": [
+            "stream",
+            "catalog",
+            "meta"
+          ],
+          "mediaTypes": [],
+          "providers": [
+            "yts",
+            "1337x",
+            "torrentcsv",
+            "1lou",
+            "nyaa",
+            "sktorrent",
+            "1tamilblasters",
+            "limetorrent",
+            "1tamilmv",
+            "rargb",
+            "knaben",
+            "thepiratebay",
+            "kickasstorrents",
+            "animetosho",
+            "extremlymtorrents",
+            "yggtorrent",
+            "tokyotosho",
+            "rutor",
+            "rutracker",
+            "torrent9",
+            "ilcorsaronero",
+            "manual"
+          ],
+          "includeP2P": false,
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "animetosho",
+        "instanceId": "137",
+        "enabled": true,
+        "options": {
+          "name": "AnimeTosho",
+          "timeout": 7000,
+          "mediaTypes": [
+            "anime"
+          ],
+          "useMultipleInstances": false
+        }
+      },
+      {
+        "type": "mediafusion",
+        "instanceId": "224",
+        "enabled": true,
+        "options": {
+          "name": "MediaFusion",
+          "timeout": 7000,
+          "resources": [
+            "stream",
+            "catalog",
+            "meta"
+          ],
+          "useCachedResultsOnly": true,
+          "enableWatchlistCatalogs": false,
+          "downloadViaBrowser": false,
+          "contributorStreams": false,
+          "certificationLevelsFilter": [],
+          "nudityFilter": [],
+          "mediaTypes": []
+        }
+      },
+      {
+        "type": "comet",
+        "instanceId": "c9f",
+        "enabled": true,
+        "options": {
+          "name": "Comet",
+          "timeout": 7000,
+          "resources": [
+            "stream"
+          ],
+          "includeP2P": false,
+          "removeTrash": true,
+          "mediaTypes": [],
+          "url": "https://comet.feels.legal"
+        }
+      }
+    ],
+    "formatter": {
+      "id": "prism",
+      "definition": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "preferredQualities": [
+      "BluRay",
+      "WEB-DL",
+      "WEBRip",
+      "HDRip",
+      "HC HD-Rip",
+      "DVDRip",
+      "HDTV"
+    ],
+    "preferredResolutions": [
+      "2160p",
+      "1440p",
+      "1080p"
+    ],
+    "excludedQualities": [
+      "CAM",
+      "SCR",
+      "TS",
+      "TC",
+      "BluRay REMUX"
+    ],
+    "excludedVisualTags": [
+      "3D"
+    ],
+    "sortCriteria": {
+      "global": [
+        {
+          "key": "resolution",
+          "direction": "desc"
+        },
+        {
+          "key": "cached",
+          "direction": "desc"
+        },
+        {
+          "key": "library",
+          "direction": "desc"
+        },
+        {
+          "key": "visualTag",
+          "direction": "desc"
+        },
+        {
+          "key": "encode",
+          "direction": "desc"
+        },
+        {
+          "key": "size",
+          "direction": "desc"
+        },
+        {
+          "key": "regexPatterns",
+          "direction": "desc"
+        },
+        {
+          "key": "streamType",
+          "direction": "desc"
+        },
+        {
+          "key": "audioTag",
+          "direction": "desc"
+        },
+        {
+          "key": "audioChannel",
+          "direction": "desc"
+        },
+        {
+          "key": "language",
+          "direction": "desc"
+        }
+      ]
+    },
+    "posterService": "rpdb",
+    "deduplicator": {
+      "enabled": true,
+      "excludeAddons": [],
+      "multiGroupBehaviour": "aggressive",
+      "keys": [
+        "filename",
+        "infoHash"
+      ],
+      "cached": "single_result",
+      "uncached": "per_service",
+      "p2p": "single_result"
+    },
+    "proxy": {
+      "id": "builtin",
+      "proxiedAddons": [],
+      "proxiedServices": []
+    },
+    "excludedResolutions": [],
+    "includedResolutions": [],
+    "requiredResolutions": [],
+    "includedQualities": [],
+    "requiredQualities": [],
+    "excludedLanguages": [],
+    "includedLanguages": [],
+    "requiredLanguages": [],
+    "preferredLanguages": [],
+    "includedVisualTags": [],
+    "requiredVisualTags": [],
+    "preferredVisualTags": [
+      "DV Only",
+      "DV",
+      "HDR+DV",
+      "HDR Only",
+      "HDR10+",
+      "HDR10",
+      "HDR",
+      "10bit",
+      "IMAX",
+      "SDR",
+      "Unknown"
+    ],
+    "excludedAudioTags": [],
+    "includedAudioTags": [],
+    "requiredAudioTags": [],
+    "preferredAudioTags": [],
+    "excludedStreamTypes": [],
+    "includedStreamTypes": [],
+    "requiredStreamTypes": [],
+    "preferredStreamTypes": [],
+    "excludedEncodes": [],
+    "includedEncodes": [],
+    "requiredEncodes": [],
+    "preferredEncodes": [],
+    "seederRangeTypes": [],
+    "digitalReleaseFilter": {
+      "enabled": true,
+      "tolerance": 0,
+      "requestTypes": [],
+      "addons": []
+    },
+    "excludeCachedFromAddons": [],
+    "excludeCachedFromServices": [],
+    "excludeCachedFromStreamTypes": [],
+    "excludeUncachedFromAddons": [],
+    "excludeUncachedFromServices": [],
+    "excludeUncachedFromStreamTypes": [],
+    "excludedStreamExpressions": [
+      "queryType == 'anime.movie' ? resolution(streams, '2160p') : []"
+    ],
+    "hideErrorsForResources": [],
+    "statistics": {
+      "statsToShow": [
+        "addon",
+        "filter"
+      ]
+    },
+    "tmdbApiKey": "<template_placeholder>",
+    "yearMatching": {
+      "enabled": true,
+      "requestTypes": [],
+      "addons": []
+    },
+    "titleMatching": {
+      "similarityThreshold": 1,
+      "enabled": true,
+      "requestTypes": [
+        "movie",
+        "series"
+      ],
+      "addons": []
+    },
+    "seasonEpisodeMatching": {
+      "enabled": true,
+      "requestTypes": [
+        "movie",
+        "series"
+      ],
+      "addons": []
+    },
+    "autoPlay": {
+      "attributes": [
+        "service",
+        "proxied",
+        "resolution",
+        "quality",
+        "encode",
+        "audioTags",
+        "visualTags",
+        "languages",
+        "releaseGroup"
+      ]
+    },
+    "catalogModifications": [
+      {
+        "id": "e674414.torrentsdb-realdebrid",
+        "type": "other",
+        "name": "RealDebrid",
+        "shuffle": false,
+        "enabled": false,
+        "usePosterService": true,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "TorrentsDB"
+      },
+      {
+        "id": "4774414.torrentio-realdebrid",
+        "type": "other",
+        "name": "RealDebrid",
+        "shuffle": false,
+        "enabled": false,
+        "usePosterService": true,
+        "hideable": true,
+        "searchable": false,
+        "addonName": "Torrentio"
+      }
+    ],
+    "cacheAndPlay": {
+      "enabled": true,
+      "streamTypes": [
+        "usenet"
+      ]
+    },
+    "rpdbApiKey": "<template_placeholder>",
+    "tvdbApiKey": "<template_placeholder>",
+    "ageRangeTypes": [
+      "usenet"
+    ],
+    "resultLimits": {
+      "global": 12,
+      "resolution": 4
+    },
+    "trusted": false,
+    "excludeUncached": true,
+    "requiredAudioChannels": [],
+    "excludedAudioChannels": [],
+    "includedAudioChannels": [],
+    "preferredAudioChannels": [],
+    "groups": {
+      "enabled": false
+    },
+    "dynamicAddonFetching": {
+      "enabled": true,
+      "condition": "(count(resolution(totalStreams, '2160p')) >= 3 and count(resolution(totalStreams, '1080p')) >= 3) or totalTimeTaken>=5000"
+    },
+    "size": {
+      "global": {
+        "series": [
+          0,
+          100000000000
+        ]
+      }
+    }
+  }
+}
