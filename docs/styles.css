@@ -1,0 +1,132 @@
+:root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #79c0ff;
+    --code-bg: #1c2128;
+    --success: #3fb950;
+    --warning: #d29922;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Noto Sans,
+                 Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text);
+    background: var(--bg);
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0.6rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+nav .brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--accent);
+    text-decoration: none;
+}
+nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+nav a:hover, nav a.active { color: var(--accent); }
+nav .spacer { flex: 1; }
+nav .github-link { display: flex; align-items: center; gap: 0.4rem; }
+nav .github-link svg { fill: var(--text-muted); transition: fill 0.2s; }
+nav .github-link:hover svg { fill: var(--accent); }
+
+/* ---------- Main content ---------- */
+.container {
+    max-width: 860px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+@media (max-width: 900px) {
+    .container { margin: 1rem; padding: 1.2rem; border-radius: 8px; }
+}
+
+/* ---------- Typography ---------- */
+h1 { font-size: 2rem; margin: 0.4rem 0 0.8rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+h3 { font-size: 1.2rem; margin-top: 1.5rem; color: var(--accent); }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+strong { color: #ffffff; }
+
+/* ---------- Lists ---------- */
+ul, ol { padding-left: 1.6rem; }
+li { margin: 0.3rem 0; }
+li > ul, li > ol { margin-top: 0.2rem; }
+
+/* ---------- Code ---------- */
+code {
+    background: var(--code-bg);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+pre {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+pre code { background: transparent; padding: 0; }
+
+/* ---------- Tables ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+}
+th, td {
+    border: 1px solid var(--border);
+    padding: 0.55rem 0.75rem;
+    text-align: left;
+}
+th { background: var(--code-bg); font-weight: 600; }
+tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+
+/* ---------- Blockquotes ---------- */
+blockquote {
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+    border-left: 4px solid var(--accent);
+    background: rgba(88,166,255,0.06);
+    border-radius: 0 6px 6px 0;
+}
+blockquote p { margin: 0.3rem 0; }
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+footer a { color: var(--accent); }
