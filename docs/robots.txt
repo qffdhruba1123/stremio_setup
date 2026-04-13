@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qffdhruba1123.github.io/stremio_setup/sitemap.xml
