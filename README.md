@@ -141,10 +141,10 @@ If you live in a torrent-friendly country, use a VPN, and are okay with occasion
 
 **Real-Debrid** is the top recommendation due to its excellent cost-to-value ratio and massive cached library. The 6-month subscription makes the monthly cost very low.
 
-Alternatives include **AllDebrid** or **TorBox**, which are similarly priced.
+Alternatives include **AllDebrid** or **[TorBox](https://torbox.app/subscription?referral=d48847e0-6222-4a07-807d-e9669b345052)**, which are similarly priced.
 
 > **Important Usage Note:**
-> You **cannot** use Real-Debrid from multiple geographic locations (different public IP addresses) at once. Doing so risks having your account banned. You can, however, connect from unlimited devices as long as they all share the same public IP address. **TorBox, Premiumize, and EasyDebrid** do not have this IP limitation.
+> You **cannot** use Real-Debrid from multiple geographic locations (different public IP addresses) at once. Doing so risks having your account banned. You can, however, connect from unlimited devices as long as they all share the same public IP address. **[TorBox](https://torbox.app/subscription?referral=d48847e0-6222-4a07-807d-e9669b345052), Premiumize, and EasyDebrid** do not have this IP limitation.
 
 ### Is Stremio safe to use?
 
